@@ -1,0 +1,17 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+%}
+<div class="px-4 py-5 my-5 text-center">
+  <h1 class="display-5 fw-bold text-body-emphasis">Lost and Found</h1>
+  <div class="col-lg-6 mx-auto">
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center py-5 home-items">
+      <a href="/guardianForm" class="btn btn-dark mx-4 py-4 px-5" role="button"
+        style="background-color:rgb(29, 125, 129);font-size:22px;">Lost Child</a>
+      <a href=" /check_status" class="btn btn-dark mx-4 py-4 px-5" role="button"
+        style="background-color:rgb(29, 125, 129);font-size:22px;">Check Status</a>
+      <!-- <a href="/delete_entry" class="btn btn-dark mx-4 py-4 px-5" role="button">Delete Entry</a> -->
+      <a href="/get_info" class="btn btn-dark mx-4 py-4 px-5" role="button"
+        style="background-color:rgb(29, 125, 129);font-size:22px;">View Information</a>
+    </div>
+  </div>
+</div>
+{% endblock %}

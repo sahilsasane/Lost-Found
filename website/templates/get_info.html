@@ -1,0 +1,16 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content%}
+<div class="px-4 py-5 my-5 text-center">
+    <h1 class="display-5 fw-bold text-body-emphasis">Child Information</h1>
+    <div class="col-lg-6 mx-auto shadow-lg p-3 mb-5 bg-white rounded mt-5">
+        <div class="justify-content-lg-center py-5 fs-2" style="font-size:25px">
+            <p style="font-weight:bold">Contact Details</p>
+            <p>Name: {{name}}</p>
+            <p>Age: {{age}}</p>
+            <p>Gender: {{gender}}</p>
+            <p>Last Location seen: {{last}}</p>
+            <a href="/getimage" class="btn btn-dark" role="button" style="background-color:rgb(33, 52, 88);">Get
+                Image</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
