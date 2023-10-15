@@ -7,7 +7,6 @@ import pickle
 from . models import Gchild , Unknown, User
 from flask_login import login_user, login_required, logout_user, current_user
 import sys
-import base64
 views = Blueprint('views', __name__)
 
 
